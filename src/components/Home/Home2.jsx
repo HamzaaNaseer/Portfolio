@@ -6,8 +6,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BsMailbox } from "react-icons/bs";
 
 function Home2() {
   return (
@@ -19,39 +21,49 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Hello! I'm a passionate MERN stack developer with over 3 years of
+              proven experience. I thrive on building efficient, scalable web
+              applications and delivering top-notch solutions to my clients.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br />I am proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  TypeScript, JavaScript, Node.js, Express.js, MongoDB,
+                  React.js, and Next.js
                 </b>
               </i>
-              &nbsp; like
+              , which form the core of my development toolkit.
+              <br />
+              <br />I have extensive experience working with
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> sockets </b>
               </i>
+              &nbsp;to enable seamless, real-time interactions within
+              applications.
+              <br />
+              <br />
+              Additionally, I can develop cross-platform mobile apps using
+              <i>
+                <b className="purple"> React Native </b>
+              </i>
+              , extending my skills to mobile development.
+              <br />
+              <br />
+              In addition to my development work, I am also an active
+              <i>
+                <b className="purple"> Freelancer </b>
+              </i>
+              , collaborating with clients to bring their visions to life. My
+              passion for coding drives me to continuously improve and stay
+              updated with the latest industry trends.
+              <br />
+              <br />
+              Whether it's creating dynamic web applications or solving complex
+              problems, I am always up for the challenge.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -67,7 +79,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/HamzaaNaseer/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +87,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/hamza-naseer-mernstackdev/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,14 +98,15 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:hamzanaseer.dev@gmail.com?subject=Your%20Subject&body=Your%20Message"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>
