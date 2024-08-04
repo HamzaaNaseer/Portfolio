@@ -21,7 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={8} className="project-card">
+          <Col md={12} className="project-card">
             <ProjectCard
               imgPath={AsaniPortal}
               isBlog={false}
@@ -33,27 +33,31 @@ function Projects() {
               demoLink="https://www.youtube.com/watch?v=uX17Sc1OwE0"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Connecting Nature"
-              description="Create Posts & Spotlight: Share updates, photos, and videos. Highlight standout content for more visibility.
+          <Col md={12}>
+            <Row style={{ justifyContent: "center" }}>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={chatify}
+                  isBlog={false}
+                  title="Connecting Nature"
+                  description="Create Posts & Spotlight: Share updates, photos, and videos. Highlight standout content for more visibility.
 Interactive Engagement: Like, comment, and share posts. Follow and unfollow users to customize your feed.
 Messaging: Chat with friends, send images, videos, voice notes, and more."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://play.google.com/store/apps/details?id=com.notify.connectingnatureapp&hl=en_US"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Cancer}
-              isBlog={false}
-              title="Cancer Clarity"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/HamzaaNaseer/cancer-clarity-app"
-              demoLink="https://editor.soumya-jit.tech/"
-            />
+                  ghLink="https://github.com/soumyajit4419/Chatify"
+                  demoLink="https://play.google.com/store/apps/details?id=com.notify.connectingnatureapp&hl=en_US"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={Cancer}
+                  isBlog={false}
+                  title="Cancer Clarity"
+                  description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+                  ghLink="https://github.com/HamzaaNaseer/cancer-clarity-app"
+                  demoLink="https://editor.soumya-jit.tech/"
+                />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
